@@ -1,8 +1,13 @@
 import java.util.function.Supplier;
 
 public class GitFlow {
-
-    private static final Supplier[] SUPPLIERS = {new G21(), new Woodchuck()};
+    private static final Supplier[] SUPPLIERS = {
+        new G21(),
+        new G23(),
+        new LoremIpsum(),
+        new Woodchuck(),
+        new JC()
+    };
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
