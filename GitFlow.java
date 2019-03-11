@@ -10,6 +10,7 @@ public class GitFlow {
         new JC(),
         new LK(),
         new GPZd(),
+        new G12(),
         new PositiveStringSupplier()
     };
 
