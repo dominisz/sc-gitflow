@@ -12,7 +12,8 @@ public class GitFlow {
         new GPZd(),
         new PositiveStringSupplier(),
         new PM8()
-
+        new G12(),
+        new PositiveStringSupplier()
     };
     
     public static void main(String[] args) {
