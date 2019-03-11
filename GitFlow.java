@@ -7,6 +7,7 @@ public class GitFlow {
         new G23(),
         new LoremIpsum(),
         new JC(),
+        new LK(),
         new GPZd()
     };
 
