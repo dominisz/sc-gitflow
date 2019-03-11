@@ -13,9 +13,10 @@ public class GitFlow {
         new PositiveStringSupplier(),
         new PM8()
         new G12(),
-        new PositiveStringSupplier()
+        new PositiveStringSupplier(),
+        new MergeRebase()
     };
-    
+
     public static void main(String[] args) {
         System.out.println("Hello World!");
         System.out.println("GitFlow style!");
