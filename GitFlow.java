@@ -1,6 +1,7 @@
 import java.util.function.Supplier;
 
 public class GitFlow {
+
     private static final Supplier[] SUPPLIERS = {
         new G21(),
         new G23(),
@@ -8,7 +9,8 @@ public class GitFlow {
         new Woodchuck(),
         new JC(),
         new LK(),
-        new GPZd()
+        new GPZd(),
+        new PositiveStringSupplier()
     };
 
     public static void main(String[] args) {
