@@ -11,7 +11,7 @@ public class GitFlow {
         new LK(),
         new GPZd(),
         new PositiveStringSupplier(),
-        new PM8()
+        new PM8(),
         new G12(),
         new PositiveStringSupplier(),
         new MergeRebase()
