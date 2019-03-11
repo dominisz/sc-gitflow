@@ -2,7 +2,7 @@ import java.util.function.Supplier;
 
 public class GitFlow {
 
-    private static final Supplier[] SUPPLIERS = {new G21()};
+    private static final Supplier[] SUPPLIERS = {new G21(), new JC()};
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
