@@ -2,8 +2,19 @@ import java.util.function.Supplier;
 
 public class GitFlow {
 
-    private static final Supplier[] SUPPLIERS = {new G21(), new G23(), new LoremIpsum(), new JC(), new PM8()};
+    private static final Supplier[] SUPPLIERS = {
+        new G21(),
+        new G23(),
+        new LoremIpsum(),
+        new Woodchuck(),
+        new JC(),
+        new LK(),
+        new GPZd(),
+        new PositiveStringSupplier(),
+        new PM8()
 
+    };
+    
     public static void main(String[] args) {
         System.out.println("Hello World!");
         System.out.println("GitFlow style!");
