@@ -6,9 +6,12 @@ public class GitFlow {
         new G21(),
         new G23(),
         new LoremIpsum(),
+        new Woodchuck(),
         new JC(),
+        new LK(),
         new GPZd(),
-		new G12()
+        new G12(),
+        new PositiveStringSupplier()
     };
 
     public static void main(String[] args) {
