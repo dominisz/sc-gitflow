@@ -1,3 +1,5 @@
+package pl.dominisz.gitflow;
+
 import java.util.function.Supplier;
 
 public class Woodchuck implements Supplier<String> {

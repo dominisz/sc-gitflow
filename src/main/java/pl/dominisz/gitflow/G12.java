@@ -1,3 +1,5 @@
+package pl.dominisz.gitflow;
+
 import java.util.function.Supplier;
 
 public class G12 implements Supplier<String> {
