@@ -17,7 +17,8 @@ public class GitFlow {
         new PM8(),
         new G12(),
         new PositiveStringSupplier(),
-        new MergeRebase()
+        new MergeRebase(),
+        new DefaultStringSupplierUtilHelperProviderImpl81()
     };
 
     public static void main(String[] args) {
